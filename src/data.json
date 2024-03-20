@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Shoes",
+    "image": "https://example.com/images/shoes.png"
+  },
+  {
+    "id": 2,
+    "name": "Men T-shirts",
+    "image": "https://example.com/images/men-t-shirts.png"
+  },
+  {
+    "id": 3,
+    "name": "Makeup",
+    "image": "https://example.com/images/makeup.png"
+  },
+  {
+    "id": 4,
+    "name": "Jewellery",
+    "image": "https://example.com/images/jewellery.png"
+  },
+  {
+    "id": 5,
+    "name": "Women T-shirts",
+    "image": "https://example.com/images/women-t-shirts.png"
+  },
+  {
+    "id": 6,
+    "name": "Furniture",
+    "image": "https://example.com/images/furniture.png"
+  }
+]

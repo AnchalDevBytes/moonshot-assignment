@@ -3,7 +3,7 @@ import { useUserContext } from "@/context/UserContext";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-const signup = () => {
+const Signup = () => {
 
     const router = useRouter()
 
@@ -73,4 +73,4 @@ const signup = () => {
     );
 }
 
-export default signup;
+export default Signup;

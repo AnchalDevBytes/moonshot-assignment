@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const loginPage = () => {
+const LoginPage = () => {
 
     const [user, setUser] = useState({
         email:"",
@@ -69,4 +69,4 @@ const loginPage = () => {
     );
 }
 
-export default loginPage;
+export default LoginPage;

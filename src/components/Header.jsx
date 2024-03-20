@@ -12,7 +12,7 @@ const Header = () => {
                 <div className="flex list-none items-center text-xs gap-5 justify-end">
                     <li>Help</li>
                     <li>Order & Return</li>
-                    <li>{user?.name}</li>
+                    <li>Hi {user?.name}</li>
                 </div>
                 <div className=" flex justify-between items-center py-1">
                     <Link href={"/"} className="text-3xl font-bold cursor-pointer">

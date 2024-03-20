@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Moonshot Assignment
+
+This repository contains the solution for the MERN Moonshot test provided on March 15, 2024. The objective of this assignment is to develop a simple sign-up and login flow for an e-commerce website, allowing users to mark categories they are interested in.
+
+
+![Home page](./src/assets/Homepage.png)
+
+## Design Link
+[Figma Design](https://www.figma.com/file/EjNZkDNTtgERV5PgF0mxnt/MERN-Assignment?type=design&node-id=33%3A667&mode=design&t=6k9GiDcswPavM0TD-1)
+
+## Objective
+Develop a sign-up and login flow for an e-commerce website, allowing users to:
+- Register new accounts
+- Login to existing accounts
+- Mark categories of interest
+- Access a protected page displaying categories
+
+## Technologies Used
+- **Framework:** Next.js
+- **Styling:** Tailwind CSS
+- **Database:** MySQL
+- **API Handling:** Axios
+
+## Features
+1. **User Registration:** Users can sign up by providing their details.
+2. **User Login:** Existing users can log in using their credentials.
+3. **Category Selection:** Users can mark categories they are interested in.
+4. **Protected Page:** A protected page accessible only to logged-in users, displaying categories.
+5. **Pagination:** Categories are paginated, with 6 categories visible per page.
+6. **Persistent Selection:** User's category selections are stored in the database, persisting across sessions.
+
+## Screenshots
+
+### Signup page
+![signup](./src/assets/signup.png)
+
+### Login page
+![login](./src/assets/login.png)
+
+### OTP-Validation
+![otp-validation](./src/assets//otp-validation.png)
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+    git clone https://github.com/AnchalDevBytes/moonshot-assignment
+```
+2. Go to the project directory and open with VS-Code
+```bash
+    cd moonshot-assignment
+    code .
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Rename the ```.sample.env``` and paste your database credentials
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+4. Install Dependencies
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+    npm install
+```
 
-## Learn More
+5. Run the Developement Server
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+    npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+6. Open http://localhost:3000 in your browser to view the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Deployment
+Deploy the app on Vercel's free tier or any other Next.js hosting provider.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Conclusion
+This project demonstrates a simple yet functional authentication system with category selection for an e-commerce website. It utilizes Next.js for server-side rendering, Tailwind CSS for styling, and MySQL for database management.
